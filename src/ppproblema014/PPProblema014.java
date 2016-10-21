@@ -15,14 +15,21 @@ public class PPProblema014 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        /* int[][] arr = new int [8][10];
-        System.out.println(arr.length);
-        for(int i=7; i<=1; i++){ 
-            for(int j=7; j<=0; j++)
-               System.out.println(arr);  
-                
-        }*/
+       int x[][];
+       x=new int [7][7];
+       
+       int p;
+        for(int i=0;i<x.length;i++){ 
+        for(int j=0;j<x.length;j++){
+            if(i==j){ 
+                 p=1;
+                }else{
+                p=0;
+                }
+            System.out.print(p +"\t");
+            }
+            System.out.println("\n");
+        }
     }
-    
 }
+
